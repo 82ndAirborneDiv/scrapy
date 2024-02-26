@@ -1,4 +1,4 @@
-Twisted>=13.1.0
+Twisted>=22.10.0rc1
 lxml
 pyOpenSSL
 cssselect>=0.9
@@ -8,3 +8,5 @@ six>=1.5.2
 PyDispatcher>=2.0.5
 service_identity
 parsel>=1.1
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
